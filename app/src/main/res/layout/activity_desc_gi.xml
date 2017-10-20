@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivam.appetite.DescGi">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:id="@+id/image_view_desc_gi"
+    android:layout_weight="3"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#e74c3c"
+                android:gravity="center"
+                android:text="STATE"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:id="@+id/text_view_state_desc_gi"
+                android:textStyle="bold"
+                android:layout_weight="2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#e74c3c"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:text="CATEGORY"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:id="@+id/text_view_category_desc_gi"
+                android:textStyle="bold"
+
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:layout_weight="3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:id="@+id/name_text_desc_gi"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/text_view_description_desc_gi"
+        android:layout_weight="4"/>
+
+</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:background="#e74c3c"
+        android:id="@+id/choose_seller_button_desc"
+        android:text="CHOOSE A SELLER"/>
+</LinearLayout>
